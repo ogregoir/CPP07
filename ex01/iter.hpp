@@ -14,3 +14,10 @@
 
 #include <iostream>
 
+template<typename T, typename S>
+
+void    groot(T tab[], int lenght, const S &s)
+{
+    for(int i = 0; i < lenght; ++i)
+        s(tab[i]);
+}
