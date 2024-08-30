@@ -28,7 +28,7 @@ int main(void)
     std::string tab[lenght];
 
     tab[0] = "coucou";
-    tab[1] = " les ";
+    tab[1] = " cc ";
     tab[2] = "amis.";
     ::groot(tab, lenght, hello);
     std::cout << std::endl;
